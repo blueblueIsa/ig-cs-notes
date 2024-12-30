@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default Light Theme */
+body {
+    background-color: white;
+    color: rgb(47, 128, 204);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+@layer {
+    :root {
+      --background: #ffffff;
+      --foreground: #09090b;
+      --border: #e3e3e7;
+    }
+  
+    .dark {
+      --background: #999999;
+      --foreground: #f9f9f9;
+      --border: #27272a;
+      color: aquamarine;
+    }
+    
+    .light {
+      --background: #ffffff;
+      --foreground: #09090b;
+      --border: #e3e3e7;
+    }
+  }
+  
+  @layer base {
+    * {
+      @apply box-border border-[--border];
+    }
+  
+    body {
+      @apply bg-[--background] text-[--foreground];
+    }
+  }
+
+
