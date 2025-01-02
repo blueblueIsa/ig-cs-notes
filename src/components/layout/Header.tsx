@@ -41,13 +41,13 @@ export function Header({ toggleSidebar }: HeaderProps) {
         <div className="flex items-center space-x-4">
           <Search />
           <ThemeToggle />
-          <Button
+          {/* <Button
             variant="primary"
             size="sm"
             onClick={handleSignOut}
           >
             Sign Out
-          </Button>
+          </Button> */}
         </div>
       </div>
     </header>

@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Book, Code, Database, Cpu, Radio, PenTool } from 'lucide-react';
 
@@ -14,9 +14,9 @@ const navigation = [
   {
     title: 'Programming Track',
     items: [
-      { name: 'Operations', href: '/programming/fundamentals', icon: Code },
+      { name: 'Operations', href: '/programming/operations', icon: Code },
       { name: 'Control Structures', href: '/programming/control-structures', icon: Book },
-      { name: 'Data Structures & Algorithms', href: '/programming/dsa', icon: PenTool },
+      { name: 'Basic Methods', href: '/programming/basic-methods', icon: PenTool },
     ],
   },
 ];

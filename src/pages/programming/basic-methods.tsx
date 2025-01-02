@@ -1,9 +1,9 @@
-
+import { BasicMethodSelection } from "../../components/programming/basicMethodSection";
 
 export function BasicMethods() {
     return (
       <div>
-        <h1>Basic Methods</h1>
+        <BasicMethodSelection />
       </div>
     );
   } 
