@@ -1,5 +1,5 @@
 import { CheckCircle2, Circle } from 'lucide-react';
-import { calculateProgress } from '@/lib/utils';
+import { calculateProgress } from '../../lib/utils';
 
 interface TopicProgressProps {
   completed: number;

@@ -1,4 +1,3 @@
-import React from 'react';
 import { SearchResult } from '../../lib/search';
 import { highlightText } from '../../lib/utils';
 
