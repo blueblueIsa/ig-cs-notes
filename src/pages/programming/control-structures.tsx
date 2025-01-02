@@ -1,9 +1,10 @@
+import { IterationSelection } from "../../components/programming/iterationSection";
 
 
 export function ControlStructures() {
     return (
       <div>
-        <h1>Control Structures</h1>
+        <IterationSelection />
       </div>
     );
   } 
